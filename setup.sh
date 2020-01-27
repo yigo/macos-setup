@@ -19,6 +19,7 @@ sudo n latest
 brew install yarn
 
 #setup git environment
+git config --global pull.rebase true
 git config --global core.editor "$vareditor"
 git config --global user.name "$varfullname"
 git config --global user.email "$varemail"
