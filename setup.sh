@@ -24,3 +24,7 @@ git config --global core.editor "$vareditor"
 git config --global user.name "$varfullname"
 git config --global user.email "$varemail"
 ssh-keygen -t rsa -b 4096 -C "$varemail"
+
+#install development specific config
+brew cask install docker
+brew install --ignore-dependencies circleci
